@@ -66,3 +66,26 @@ youtube_publish_state*.json
 .venv/
 venv/
 .whispvenv/
+
+# 認証情報
+.env
+.env.*
+!.env.example
+*token*.json*
+*secret*.json*
+*cookies*.txt
+dotenv.txt
+
+# バックアップ・実行状態
+*.bak
+*.bak.*
+youtube_publish_state*.json
+._*
+
+# 動画・仮想環境
+*.mp4
+*.mov
+*.mkv
+.venv/
+venv/
+.whispvenv/
